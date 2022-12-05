@@ -1,0 +1,117 @@
+<DATOSENTIDADES>
+  <EMPRESA codigo="1" nombre="SUPER GIROS S.A">
+    <ENTIDAD codigo="1" nombre="TIPOS DE MONEDA">
+      <DATO tipodato="" codigo="1">MONEDA LOCAL</DATO>
+      <DATO tipodato="" codigo="2">MONEDA EXTRANJERA</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="2" nombre="TIPOS DE AGENCIA">
+      <DATO tipodato="" codigo="19">TESORERIA PRINCIPAL</DATO>
+      <DATO tipodato="" codigo="20">TESORERIA AUXILIAR</DATO>
+      <DATO tipodato="" codigo="21">PROPIA</DATO>
+      <DATO tipodato="" codigo="22">LICENCIATARIA</DATO>
+      <DATO tipodato="" codigo="23">PROPIA LICENCIATARIA</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="3" nombre="TIPOS DE CAJA">
+      <DATO tipodato="" codigo="27">PRINCIPAL DE TESORERIA</DATO>
+      <DATO tipodato="" codigo="28">PRINCIPAL ZONA - AUXILIAR DE TESORERIA PRINCIPAL</DATO>
+      <DATO tipodato="" codigo="29">PRINCIPAL AGENCIA</DATO>
+      <DATO tipodato="" codigo="30">AUXILIAR AGENCIA</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="4" nombre="TIPOS DE IDENTIFICACION">
+      <DATO tipodato="N" codigo="3">CC</DATO>
+      <DATO tipodato="A" codigo="4">CE</DATO>
+      <DATO tipodato="N" codigo="5">TI</DATO>
+      <DATO tipodato="N" codigo="8">NIT</DATO>
+      <DATO tipodato="A" codigo="7">PA</DATO>
+      <DATO tipodato="A" codigo="6">CEX</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="5" nombre="TIPOS DE MEDIOS DE PAGO">
+      <DATO tipodato="" codigo="13">EFECTIVO</DATO>
+      <DATO tipodato="" codigo="14">CHEQUE</DATO>
+      <DATO tipodato="" codigo="15">TARJETA DEBITO</DATO>
+      <DATO tipodato="" codigo="16">TARJETA CREDITO</DATO>
+      <DATO tipodato="" codigo="133">CREDITO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="6" nombre="TIPOS DE OPERACIONES INUSUALES">
+      <DATO tipodato="" codigo="48">ES PARTE DE UN GRUPO</DATO>
+      <DATO tipodato="" codigo="49">ESTABA MUY NERVIOSO</DATO>
+      <DATO tipodato="" codigo="50">DOCUMENTO FALSO</DATO>
+      <DATO tipodato="" codigo="51">SUPLANTACION DE TERCERO</DATO>
+      <DATO tipodato="" codigo="52">EL PERFIL NO ENCAJA CON EL MONTO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="7" nombre="TIPOS DE PERSONAS">
+      <DATO tipodato="" codigo="9">PERSONA NATURAL</DATO>
+      <DATO tipodato="" codigo="10">PERSONA JURIDICA</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="8" nombre="TIPOS DE TERCEROS">
+      <DATO tipodato="" codigo="11">TERCERO (CLIENTE)</DATO>
+      <DATO tipodato="" codigo="12">TERCERO (PROVEEDOR)</DATO>
+      <DATO tipodato="" codigo="24">TERCERO (EMPLEADO)</DATO>
+      <DATO tipodato="" codigo="41">TERCERO (EMPLEADO)</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="9" nombre="ESTADOS DE GIRO">
+      <DATO tipodato="" codigo="36">PENDIENTE</DATO>
+      <DATO tipodato="" codigo="37">PAGADO</DATO>
+      <DATO tipodato="" codigo="38">CONGELADO</DATO>
+      <DATO tipodato="" codigo="39">REINTEGRADO</DATO>
+      <DATO tipodato="" codigo="40">ANULADO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="10" nombre="ESTADOS DE CAJA">
+      <DATO tipodato="" codigo="25">ACTIVO(A)</DATO>
+      <DATO tipodato="" codigo="26">BLOQUEADO(A)</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="11" nombre="ESTADOS DE MOVIMIENTO DE CAJA" />
+    <ENTIDAD codigo="12" nombre="ESTADOS SOLICITUDES DE DESEMBOLOS O TRASLADOS">
+      <DATO tipodato="" codigo="36">PENDIENTE</DATO>
+      <DATO tipodato="" codigo="42">ACEPTADO</DATO>
+      <DATO tipodato="" codigo="43">RECHAZADO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="13" nombre="ALCANCE DE MEDIOS DE PAGO">
+      <DATO tipodato="" codigo="17">ALCANCE LOCAL (SOLO LO VE Y LO USA LA AGENCIA A LA QUE PERTENECE)</DATO>
+      <DATO tipodato="" codigo="18">ALCANCE GLOBAL (LO VEN Y USAN TODAS LAS AGENCIAS)</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="14" nombre="NATURALEZA DE CONCEPTOS">
+      <DATO tipodato="" codigo="33">INGRESO</DATO>
+      <DATO tipodato="" codigo="34">EGRESO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="15" nombre="NATURALEZA DE CUENTAS CONTABLES" />
+    <ENTIDAD codigo="16" nombre="DOMINIO (SI/NO)">
+      <DATO tipodato="" codigo="31">SI</DATO>
+      <DATO tipodato="" codigo="32">NO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="17" nombre="ESTADO (ACTIVO/NO ACTIVO)">
+      <DATO tipodato="" codigo="25">ACTIVO(A)</DATO>
+      <DATO tipodato="" codigo="35">NO ACTIVO(A)</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="18" nombre="¿EL MENSAJE DE LA LLAMADA ES DE CONTACTO?">
+      <DATO tipodato="" codigo="31">SI</DATO>
+      <DATO tipodato="" codigo="32">NO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="19" nombre="TIPOS DE DENOMINACIONES">
+      <DATO tipodato="" codigo="44">BILLETES</DATO>
+      <DATO tipodato="" codigo="45">MONEDAS</DATO>
+      <DATO tipodato="" codigo="46">CHEQUES</DATO>
+      <DATO tipodato="" codigo="47">VALES AUTORIZADOS</DATO>
+    </ENTIDAD>
+    <!-- TIPOS DE SOLICITUDES = SOLICITUDES DE AUTORIZACION Y LEVANTAMIENTO, ENTIDADES 20,29-->
+    <ENTIDAD codigo="20" nombre="TIPOS DE SOLICITUDES">
+      <DATO tipodato="25" codigo="56">SOLICITADO PARA ANULAR</DATO>
+      <!-- <DATO tipodato="" codigo="54">SOLICITADO PARA TRASLADO</DATO> -->
+      <DATO tipodato="27" codigo="58">SOLICITADO PARA CAMBIO DE BENEFICIARIO</DATO>
+      <DATO tipodato="32" codigo="126">SOLICITUD LEVANTAMIENTO NO DISTRIBUIBLE</DATO>
+      <DATO tipodato="0" codigo="127">SOLICITUD LEVANTAMIENTO REZAGO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="21" nombre="ESTADOS AUTORIZACIONES">
+      <DATO tipodato="" codigo="56">PENDIENTE AUTORIZACION</DATO>
+      <DATO tipodato="" codigo="57">AUTORIZADO</DATO>
+      <DATO tipodato="" codigo="58">NO AUTORIZADO</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="22" nombre="TIPOS DE IDENTIFICACION INGRESOS-EGRESOS">
+      <DATO tipodato="N" codigo="3">CC</DATO>
+      <DATO tipodato="N" codigo="8">NIT</DATO>
+    </ENTIDAD>
+    <ENTIDAD codigo="023" nombre="TIPOS DE IDENTIFICACION APODERADO">
+      <DATO tipodato="N" codigo="3">CC</DATO>
+    </ENTIDAD>
+  </EMPRESA>
+</DATOSENTIDADES>

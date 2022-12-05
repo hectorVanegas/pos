@@ -1,0 +1,151 @@
+<DIRECCIONES>
+<ENTIDAD codigo="D1" nombre="claseVias">
+      <DATO tipodato="" codigo="1">Calle</DATO>
+      <DATO tipodato="" codigo="2">Carrera</DATO>
+	  <DATO tipodato="" codigo="3">Avenida</DATO>
+      <DATO tipodato="" codigo="4">Diagonal</DATO>
+	  <DATO tipodato="" codigo="5">Transversal</DATO>
+      <DATO tipodato="" codigo="6">Autopista</DATO>
+	  <DATO tipodato="" codigo="7">Troncal</DATO>
+      <DATO tipodato="" codigo="8">Kilometro</DATO>
+	  <DATO tipodato="" codigo="9">Carretera</DATO>
+	  <DATO tipodato="" codigo="10">Via</DATO>
+      <DATO tipodato="A" codigo="11">Vereda</DATO>
+      <DATO tipodato="A" codigo="12">Otra</DATO>
+ </ENTIDAD>
+ 
+ <ENTIDAD codigo="D1_int" nombre="claseVias">
+ 
+      <DATO tipodato="" codigo="1">ADMINISTRACION</DATO>
+      <DATO tipodato="" codigo="2">ALTILLO</DATO>
+	  <DATO tipodato="" codigo="3">APARTAMENTO</DATO>
+      <DATO tipodato="" codigo="4">APARTAMENTO SOTANO</DATO>
+	  <DATO tipodato="" codigo="5">AVENIDA</DATO>
+      <DATO tipodato="" codigo="6">AUTOPISTA</DATO>
+	  <DATO tipodato="" codigo="7">AVENIDA CALLE</DATO>
+      <DATO tipodato="" codigo="8">AVENIDA CARRERA</DATO>
+	  <DATO tipodato="" codigo="9">BLOQUE</DATO>
+	  <DATO tipodato="" codigo="10">BODEGA</DATO>
+      <DATO tipodato="" codigo="11">CABECERA MUNICIPAL</DATO>
+      <DATO tipodato="" codigo="12">CALLE</DATO>
+      <DATO tipodato="" codigo="13">CAMINO</DATO>
+      <DATO tipodato="" codigo="14">CARRERA</DATO>
+	  <DATO tipodato="" codigo="15">CARRETERA</DATO>
+      <DATO tipodato="" codigo="16">CASA</DATO>
+	  <DATO tipodato="" codigo="17">CASERIO</DATO>
+      <DATO tipodato="" codigo="18">CELULA</DATO>
+	  <DATO tipodato="" codigo="19">CONJUNTO</DATO>
+      <DATO tipodato="" codigo="20">CONSULTORIO</DATO>
+	  <DATO tipodato="" codigo="21">CORREGIMIENTO</DATO>
+	  <DATO tipodato="" codigo="22">DEPOSITO</DATO>
+      <DATO tipodato="" codigo="23">DEPOSITO SOTANO</DATO>
+      <DATO tipodato="" codigo="24">DIAGONAL</DATO>
+      <DATO tipodato="" codigo="25">EDIFICIO</DATO>
+      <DATO tipodato="" codigo="26">ENTRADA</DATO>
+	  <DATO tipodato="" codigo="27">ESQUINA</DATO>
+      <DATO tipodato="" codigo="28">ESTE</DATO>
+	  <DATO tipodato="" codigo="29">ETAPA</DATO>
+      <DATO tipodato="" codigo="30">GARAJE</DATO>
+	  <DATO tipodato="" codigo="31">GARAJE SOTANO</DATO>
+      <DATO tipodato="" codigo="32">INSPECCION DE POLICIA</DATO>
+	  <DATO tipodato="" codigo="33">INTERIOR</DATO>
+	  <DATO tipodato="" codigo="34">KILOMETRO</DATO>
+      <DATO tipodato="" codigo="35">LOCAL</DATO>
+      <DATO tipodato="" codigo="36">LOCAL MEZZANINE</DATO>
+      <DATO tipodato="" codigo="37">LOCAL SOTANO</DATO>
+      <DATO tipodato="" codigo="38">MEJORA</DATO>
+	  <DATO tipodato="" codigo="39">MEZZANINE</DATO>
+      <DATO tipodato="" codigo="40">MODULO</DATO>
+	  <DATO tipodato="" codigo="41">NORTE</DATO>
+      <DATO tipodato="" codigo="42">OCCIDENTE</DATO>
+	  <DATO tipodato="" codigo="43">OESTE</DATO>
+      <DATO tipodato="" codigo="44">OFICINA</DATO>
+	  <DATO tipodato="" codigo="45">OFICINA SOTANO</DATO>
+	  <DATO tipodato="" codigo="46">PARCELA</DATO>
+      <DATO tipodato="" codigo="47">PENTHOUSE</DATO>
+      <DATO tipodato="" codigo="48">PISO</DATO>
+      <DATO tipodato="" codigo="49">PORTERIA</DATO>
+      <DATO tipodato="" codigo="50">PREDIO</DATO>
+	  <DATO tipodato="" codigo="51">PUENTE</DATO>
+      <DATO tipodato="" codigo="52">PUESTO</DATO>
+	  <DATO tipodato="" codigo="53">QUEBRADA</DATO>
+      <DATO tipodato="" codigo="54">SALON</DATO>
+	  <DATO tipodato="" codigo="55">SEMISOTANO</DATO>
+      <DATO tipodato="" codigo="56">SUITE</DATO>
+	  <DATO tipodato="" codigo="57">SUR</DATO>
+	  <DATO tipodato="" codigo="58">TERRAZA</DATO>
+      <DATO tipodato="" codigo="59">TORRE</DATO>
+      <DATO tipodato="" codigo="60">TRANSVERSAL</DATO>
+      <DATO tipodato="" codigo="61">UNIDAD</DATO>
+      <DATO tipodato="" codigo="62">URBANIZACION</DATO>
+	  <DATO tipodato="" codigo="63">VEREDA</DATO>
+      <DATO tipodato="" codigo="64">ZONA</DATO>
+	  <DATO tipodato="" codigo="65">VIA</DATO>
+      <DATO tipodato="" codigo="66">POSTE</DATO>
+	  <DATO tipodato="" codigo="67">AGRUPACION</DATO>
+      <DATO tipodato="" codigo="68">BARRIO</DATO>
+	  <DATO tipodato="" codigo="69">CALLEJON</DATO>
+	  <DATO tipodato="" codigo="70">CENTRO</DATO>
+      <DATO tipodato="" codigo="71">CENTRO COMERCIAL</DATO>
+      <DATO tipodato="" codigo="72">CENTRO URBANO</DATO>
+      <DATO tipodato="" codigo="73">CIRCULAR</DATO>
+      <DATO tipodato="" codigo="74">CIRCUNVALAR</DATO>
+	  <DATO tipodato="" codigo="75">CONDOMINIO</DATO>
+      <DATO tipodato="" codigo="76">FINCA</DATO>
+	  <DATO tipodato="" codigo="77">INFERIOR</DATO>
+      <DATO tipodato="" codigo="78">LOTE</DATO>
+	  <DATO tipodato="" codigo="79">MANZANITA</DATO>
+      <DATO tipodato="" codigo="80">MUNICIPIO</DATO>
+	  <DATO tipodato="" codigo="81">NUCLEO</DATO>
+	  <DATO tipodato="" codigo="82">OCCIDENTE</DATO>
+      <DATO tipodato="" codigo="83">PARCELACION</DATO>
+      <DATO tipodato="" codigo="84">PASAJE</DATO>
+      <DATO tipodato="" codigo="85">PRINCIPAL</DATO>
+      <DATO tipodato="" codigo="86">SECTOR</DATO>
+	  <DATO tipodato="" codigo="87">SUPERMANZANA</DATO>
+      <DATO tipodato="" codigo="88">TRONCAL</DATO>
+	  <DATO tipodato="" codigo="89">GRADA</DATO>
+      <DATO tipodato="" codigo="90">MANZANA</DATO>
+      
+ </ENTIDAD>
+  <ENTIDAD codigo="D2" nombre="sectores">
+      <DATO tipodato="" codigo="1">Norte</DATO>
+      <DATO tipodato="" codigo="2">Sur</DATO>
+	  <DATO tipodato="" codigo="3">Este</DATO>
+      <DATO tipodato="" codigo="4">Oeste</DATO>
+	  <DATO tipodato="" codigo="5">Centro</DATO>
+ </ENTIDAD>
+ <ENTIDAD codigo="D4" nombre="estratos">
+      <DATO tipodato="" codigo="1">1</DATO>
+      <DATO tipodato="" codigo="2">2</DATO>
+	  <DATO tipodato="" codigo="3">3</DATO>
+      <DATO tipodato="" codigo="4">4</DATO>
+	  <DATO tipodato="" codigo="5">5</DATO>
+      <DATO tipodato="" codigo="6">6</DATO>
+	  <DATO tipodato="" codigo="7">7</DATO>
+ </ENTIDAD>
+ <ENTIDAD codigo="D3" nombre="caracteristicas">
+      <DATO tipodato="" codigo="1">Apartamento</DATO>
+      <DATO tipodato="" codigo="2">Oficina</DATO>
+      <DATO tipodato="" codigo="3">Bloque</DATO>
+	  <DATO tipodato="" codigo="4">Centro Comercial</DATO>
+      <DATO tipodato="" codigo="5">Bodega</DATO>
+	  <DATO tipodato="" codigo="6">Casa</DATO>
+      <DATO tipodato="" codigo="7">Condominio</DATO>
+	  <DATO tipodato="" codigo="8">Conjunto</DATO>
+	  <DATO tipodato="" codigo="9">Consultorio</DATO>
+      <DATO tipodato="" codigo="10">Edificio</DATO>
+	  <DATO tipodato="" codigo="11">Etapa</DATO>
+	  <DATO tipodato="" codigo="12">Torre</DATO>
+	  <DATO tipodato="" codigo="13">Local</DATO>
+	  <DATO tipodato="" codigo="14">Manzana</DATO>
+	  <DATO tipodato="" codigo="15">Parcela</DATO>
+	  <DATO tipodato="" codigo="16">Pasaje</DATO>
+	  <DATO tipodato="" codigo="17">Piso</DATO>
+	  <DATO tipodato="" codigo="18">Sector</DATO>
+	  <DATO tipodato="" codigo="19">Salon</DATO>
+	  <DATO tipodato="" codigo="20">Unidad</DATO>
+	  <DATO tipodato="" codigo="21">Urbanizacion</DATO>
+	  <DATO tipodato="" codigo="22">Zona</DATO>
+ </ENTIDAD>
+</DIRECCIONES>

@@ -1,0 +1,15 @@
+
+Tipo: Codigo
+Funcionalidad: Contenedor de servicios adicionales
+Descripcion: En tiempo de compilacion, dentro de la incorporacion del modulo de 
+			 servicios adicionales, cuando se adiciona un servicio especifico,
+			 cuya operacion retorna el conjunto de operaciones permitidas para
+			 el desarrollo del servicio adicional agregado dentro de la 
+			 funcionalidad, el compilador no esta validando que el tipo de dato 
+			 de la variable propuesta para la asignacion sea del tipo generalizado 
+			 OperacionesServicioAdicional, para que se reduzcan posibles inconvenientes
+			 de tipo en tiempo de ejecucion  
+Propuesta: Validar que alternativas a este escenario propone el uso de las genericas (T), 
+		   dado que no esta reconociendo la sintaxis logica y de sentido que se incorporo
+		   para controlar este aspecto 
+Responsable ideal: Hector Q-en-K

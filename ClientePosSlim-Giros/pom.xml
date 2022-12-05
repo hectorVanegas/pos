@@ -1,0 +1,173 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>co.com.codesa.clienteposslimgiros</groupId>
+  <artifactId>ClientePosSlim-Giros</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ClientePosSlim-Giros</name>
+  	<properties>
+    	<maven.build.timestamp.format>dd/MM/yyyy HH:mm:ss</maven.build.timestamp.format>
+	</properties>
+  	<!-- Se define el repositorio local y donde se generan los snapshots -->
+	<distributionManagement>
+		<repository>
+			<id>internal</id>
+			<name>Internal Release Repository</name>
+			<url>http://10.18.1.20:6060/archiva/repository/internal/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Internal Snapshot Repository</name>
+			<url>http://10.18.1.20:6060/archiva/repository/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
+		<dependencies>
+			
+			<dependency>
+				<groupId>co.com.codesa.clienteposslimcontrolador</groupId>
+				<artifactId>ClientePosSlim-Controlador</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			
+			<!--
+			<dependency>
+			   <groupId>co.com.codesa.codesawrapper</groupId>
+			   <artifactId>CodesaWrapper</artifactId>
+			   <version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			-->
+
+			<dependency>
+			    <groupId>co.com.codesa.codesawrappergiros</groupId>
+			    <artifactId>CodesaWrapperGiros</artifactId>
+			    <version>0.0.1-SNAPSHOT</version>
+		    </dependency>
+		
+			<dependency>
+				<groupId>co.com.codesa.clienteposslimexceptions</groupId>
+				<artifactId>ClientePosSlim-Exceptions</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>co.com.codesa.clienteposslim</groupId>
+				<artifactId>ClientePos-Slim</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			
+			<dependency>
+			  <groupId>com.toedter</groupId>
+			  <artifactId>jcalendar</artifactId>
+			  <version>1.4</version>
+			</dependency>
+			
+			<dependency>
+		      <groupId>co.com.codesa.client.socketcliente</groupId>
+		      <artifactId>ClienteSimsIdVerifyCliente</artifactId>
+		      <version>1.3</version>
+		    </dependency>
+			
+			<dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>1.6</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>co.com.codesa.clientecajams</groupId>
+                <artifactId>ClienteCajaMS</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>  
+            
+            <dependency>
+     			<groupId>com.playtech.camera</groupId>
+      			<artifactId>PlayCameraLibrary</artifactId>
+      			<version>1.0</version>
+    		</dependency>
+            
+            <dependency>
+      			<groupId>org.jnbis.api</groupId>
+      			<artifactId>jnbis</artifactId>
+      			<version>2.1</version>
+    		</dependency>
+
+			<dependency>
+      			<groupId>spg.bio.Converter</groupId>
+      			<artifactId>SPGBioConvert</artifactId>
+      			<version>1.0</version>
+    		</dependency>
+			
+		</dependencies>
+	
+	<build>
+		<plugins>
+			<!--
+				Indica la version de Java con la que se descarga el componente [Maven-Update] 
+				
+				En esta situacion la version del Java ha sido configurada en el archivo: ../.m2/settings.xml,
+				bajo un bloque de propiedades ubicado sobre la estructura:
+				
+					...
+					<profiles>
+						<profile>
+							...
+							...
+							...
+							<properties>
+								  <posslim.java.version>1.6</posslim.java.version>
+							</properties>
+						</profile>
+					</profiles>	
+			-->
+			<!-- -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest-File>src/main/resources/META-INF/MANIFEST.MF</manifest-File>
+						<!--
+							Indica la personalizacion de etiquetas y valores que se adjuntan a la generacion 
+							del manifest [Maven-Build]
+							
+							La personalizacion de etiquetas y valores ha sido configurado en el archivo:
+							../.m2/settings.xml, bajo un bloque de propiedades ubicado sobre la estructura:
+							
+								...
+								<profiles>
+									<profile>
+										...
+										...
+										...
+										<properties>
+								  			<posslim.manifest.version>V1.4_04 RS:4848</posslim.manifest.version>
+								  			<posslim.manifest.date>04/02/2016</posslim.manifest.date>
+										</properties>
+									</profile>
+								</profiles>	
+								
+							Importante: para que esta configuracion funcione de manera esperada, se debe proceder
+							dentro del entorno IDE, a dejar en blanco el archivo manifest o en su defecto eliminar 
+							las lineas que hagan referencia a las variables que se desean personalizar
+						 -->
+						 <!-- -->
+						<manifestEntries>
+							<Version>${posslim.manifest.version}</Version>
+							<Date>${maven.build.timestamp}</Date>
+						</manifestEntries>
+						
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins> 
+	</build>
+</project>

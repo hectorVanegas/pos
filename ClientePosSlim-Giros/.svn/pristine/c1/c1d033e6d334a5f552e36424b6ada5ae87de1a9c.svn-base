@@ -1,0 +1,10 @@
+#Etiquetas HTML
+
+tag_abre_html=<html>
+tag_cierra_html=</html>
+tag_alineacion_centro=<P ALIGN=center>
+tag_alineacion_derecha=<P ALIGN=right>
+tag_alineacion_izquierda=<P ALIGN=left>
+tag_alineacion_justificada=<P ALIGN=justify>
+tag_salto_linea=<br>
+tag_tabular_linea=&#09

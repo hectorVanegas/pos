@@ -1,0 +1,259 @@
+<MENUBAR>
+	<MENU nombre="Archivo" mnemonic="a" id="*" habilitar="S">
+		<MENUITEM>
+			<NOMBRE>Cambiar contraseña</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.cambioContrasena.FormaCambioContrasena</FORMA>
+			<ATAJO>CONTROL,B</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		<MENUITEM>
+			<NOMBRE>Impresión</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.impresion.FormaConfigurarTipoImpresora</FORMA>
+			<ATAJO>CONTROL,I</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		<!-- <MENUITEM> <NOMBRE>Salir</NOMBRE> <MNEMONIC>i</MNEMONIC> <FORMA>co.com.codesa.clienteposslimgiros.formas.sesion.FormaCierreSesion</FORMA> 
+			<ATAJO>*</ATAJO> <HABILITAR>S</HABILITAR> <ID>*</ID> </MENUITEM> -->
+	</MENU>
+	<MENU nombre="Caja" mnemonic="c" id="*" habilitar="S">
+		<MENUITEM>
+			<NOMBRE>Apertura</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.caja.FormaAperturarCaja</FORMA>
+			<ATAJO>CONTROL,A</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		<MENUITEM>
+			<NOMBRE>Cierre de Caja</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.caja.FormaCierreCaja</FORMA>
+			<ATAJO>CONTROL,C</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		<MENUITEM>
+			<NOMBRE>Ingresos y Egresos</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.caja.FormaGiroIngresoEgreso</FORMA>
+			<ATAJO>CONTROL,G</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>6</ID>
+		</MENUITEM>
+		<!--
+		<MENUITEM>
+			<NOMBRE>Provisión Caja</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.caja.FormaProvisionCaja</FORMA>
+			<ATAJO>CONTROL,V</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>9</ID>
+		</MENUITEM>
+		-->
+		<MENUITEM>
+			<NOMBRE>Consulta Movimientos Caja</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.caja.FormaConsultaMovimientosCajaGiros</FORMA>
+			<ATAJO>CONTROL,M</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>32</ID>
+		</MENUITEM>
+		<!--
+		<MENUITEM>
+			<NOMBRE>Consultar Documentos Pendientes</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.documentacion.FormaConsultaDocumentosPendientes</FORMA>
+			<ATAJO>CONTROL,D</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>8</ID>
+		</MENUITEM>
+		<MENUITEM>
+			<NOMBRE>Movimientos Provisiones</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.caja.FormaConsultaDesembolsosProvisiones</FORMA>
+			<ATAJO>CONTROL,O</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>34</ID>
+		</MENUITEM>
+		-->
+	</MENU>
+	<MENU nombre="Facturación" mnemonic="f" id="10" habilitar="N">
+		<MENUITEM>
+			<NOMBRE>Facturación Documentos</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.facturacion.FormaEnvioFacturacion</FORMA>
+			<ATAJO>CONTROL,F</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>11</ID>
+		</MENUITEM>
+	</MENU>
+	<MENU nombre="Pagos" mnemonic="p" id="13" habilitar="N">
+		<MENUITEM>
+			<NOMBRE>Pago Giros Nacionales</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.pago.FormaConsultaGiro</FORMA>
+			<ATAJO>CONTROL,P</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>50</ID>
+		</MENUITEM>
+	</MENU>
+	<MENU nombre="Administración" mnemonic="m" id="16" habilitar="N">
+		<MENUITEM>
+			<NOMBRE>Solicitudes Autorización y Levantamiento</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.solicitud.FormaSolicitudAutorizacion</FORMA>
+			<ATAJO>CONTROL,S</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>17</ID>
+		</MENUITEM>
+		<SUBMENU nombre="Edición" mnemonic="*" id="*" habilitar="S">
+			<MENUITEM>
+				<NOMBRE>Edición Notas</NOMBRE>
+				<MNEMONIC>*</MNEMONIC>
+				<FORMA>co.com.codesa.clienteposslimgiros.formas.notas.FormaGiroNotas</FORMA>
+				<ATAJO>CONTROL,N</ATAJO>
+				<HABILITAR>N</HABILITAR>
+				<ID>51</ID>
+			</MENUITEM>
+		</SUBMENU>
+		<MENUITEM>
+			<NOMBRE>Historial autorizaciones</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.autorizacion.FormaHistorialAutorizacion</FORMA>
+			<ATAJO>CONTROL,H</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+	</MENU>
+
+	<MENU nombre="Reimpresión" mnemonic="r" id="22" habilitar="N">
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimpresion</FORMA>
+			<ATAJO>CONTROL,R</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		<!--
+		<MENUITEM>
+			<NOMBRE>Reimprimir última factura</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimaFactura</FORMA>
+			<ATAJO>CONTROL,E</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>35</ID>
+		</MENUITEM>
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir último pago</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimoPago</FORMA>
+			<ATAJO>CONTROL,G</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>36</ID>
+		</MENUITEM>
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir último seguro</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimoSeguro</FORMA>
+			<ATAJO>CONTROL,T</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>94</ID>
+		</MENUITEM>
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir último SMS</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimoSms</FORMA>
+			<ATAJO>*</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir útimo ingreso</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimoIngreso</FORMA>
+			<ATAJO>CONTROL,S</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>37</ID>
+		</MENUITEM>
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir último egreso</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimoEgreso</FORMA>
+			<ATAJO>CONTROL,U</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>38</ID>
+		</MENUITEM>
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir último arqueo caja</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirUltimoArqueoCaja</FORMA>
+			<ATAJO>CONTROL,B</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>59</ID>
+		</MENUITEM>
+
+		<MENUITEM>
+			<NOMBRE>Reimprimir por pin</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.reimpresion.FormaReimprimirPorPin</FORMA>
+			<ATAJO>CONTROL,R</ATAJO>
+			<HABILITAR>N</HABILITAR>
+			<ID>60</ID>
+		</MENUITEM>
+
+		-->
+
+	</MENU>
+	
+	<MENU nombre="Remesas Internacionales" mnemonic="i" id="20121" habilitar="N">
+		<MENUITEM>
+			<NOMBRE>Pago de Remesa</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.pago.FormaConsultaGiroInternacional</FORMA>
+			<ATAJO>CONTROL,E</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		
+		<MENUITEM>
+			<NOMBRE>Anulación Protegiro Internacional</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.superCombo.FormaAnulacionProtegiroInternacional</FORMA>
+			<ATAJO>CONTROL,O</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		
+		<MENUITEM>
+			<NOMBRE>Envio Remesa Internacional</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.envioRemesaInternacional.FormaEnvioRemesaInternacional</FORMA>
+			<ATAJO>CONTROL,I</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+		
+		<MENUITEM>
+			<NOMBRE>Operaciones Inusuales Internacional</NOMBRE>
+			<MNEMONIC>*</MNEMONIC>
+			<FORMA>co.com.codesa.clienteposslimgiros.formas.operacioninusual.FormaGiroOperInusualInternacional</FORMA>
+			<ATAJO>CONTROL,R</ATAJO>
+			<HABILITAR>S</HABILITAR>
+			<ID>*</ID>
+		</MENUITEM>
+	</MENU>
+</MENUBAR>
+

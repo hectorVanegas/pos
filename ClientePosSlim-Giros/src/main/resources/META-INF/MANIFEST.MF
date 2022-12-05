@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: Jaime Andres Mestre
+Build-Jdk: 1.7.0_72
+Created-By: Apache Maven 3.2.5
+Date: 28/10/2022 17:24:00
+Version:  BNET  Rel5.0_fix0_2 RS:21086
+Archiver-Version: Plexus Archiver

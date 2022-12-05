@@ -1,0 +1,229 @@
+#Este archivo pretende consolidar todos los parametros propios e 
+#internosde de la aplicacion, para tener total configuracion de 
+#estos temas y no dejar nada predefinido en el fuente
+
+plantilla_mensaje_procesado=[{tipo} - {codigo}]: {mensaje}
+mensaje_no_documentado=Mensaje no documentado
+codigo_mensaje_no_documentado=00000
+pnl_terr_cant_secciones=4
+edad_mayor=18
+maxima_edad_permitida_para_registro=120
+fecha_vacia=01/01/1920
+direccion_vacia=SIN DIRECCION
+auto_ajustar_imagen=<AUTO_AJUSTAR>
+moneda=1
+concepto=3
+concepto_egreso=34
+concepto_ingreso=33
+comprobante_provision=4
+comprobante_desembolso=3
+comprobante_caja=2
+descripcion_estado_giro_pendiente=PENDIENTE
+contrasena_no_permitida=123456
+ancho_maximo_formas_recomendado_x_resolucion=800
+alto_maximo_formas_recomendado_x_resolucion=670
+#codigo_inicial_agencia_sims=codAgenciaSims
+
+#Seguridad
+llave_descifrar_wsq=C0D3S4RR0LL0HWSQ
+
+#Impresion
+#Constantes Impresion
+cnst_impr_igual=<IGUAL>
+cnst_impr_separador=<SEPARADOR>
+id_reimpresion=Re-
+#Tipos de Impresora
+tipo_impresion_tirilla=Tirilla
+tipo_impresion_media_carta=Media carta
+tipo_impresion=tipo
+id_nombre_impresora_tirilla=nombreImpresoraGirosTMU
+id_nombre_impresora_media_carta=nombreImpresoraGirosMC
+nombre_impresora_no_configurada=No configurada
+#Puerto de conexion
+puerto_impresora=9041
+
+#Tipos de Productos
+nombre_producto_giros=Giro postal
+
+#Parametros del sistema
+cantidad_parametros_x_trama_carga_inicial=33
+segundos_disponible_valor_parametro_siempre_consulta=2
+
+#Productos
+producto_giros_id=1
+producto_mensaje_texto=4
+producto_seguro_hurto_muerte_accidental=2
+producto_recaudos_id=5
+
+#Tipos Naturaleza de Documento
+documento_naturaleza_positiva=+
+documento_naturaleza_negativa=-
+
+#Tipos Descripcion Tercero
+descripcion_tercero_remitente=Remitente
+descripcion_tercero_beneficiario=Beneficiario
+descripcion_tercero_tramitador=Tramitador
+descripcion_tercero_apoderado=Apoderado
+
+#Tipos denominacion, se guarda el codigo de denominacion en archivo
+tipo_denominacion_billete=47
+tipo_denominacion_moneda=48
+tipo_denominacion_cheque=49
+tipo_denominacion_vale=50
+
+#Tipos solicitudes
+tipo_solicitud_autorizacion=1
+tipo_solicitud_levantamiento=2
+tipo_solicitud_levantamiento_y_autorizacion=3
+
+#Tipos de conceptos
+tipo_concepto_pago_giro=1
+
+#Valores_JSpinner
+spn_valor_inicial=1
+spn_valor_minimo=1
+spn_valor_maximo=1000000
+spn_valor_incremento=1
+
+#Archivos de Propiedades
+estado_cfg=estado.cfg
+configuracion_impresora_properties=configuracion_impresora.properties
+
+#XMLs
+ruta_interna_xml_territorios=/co/com/codesa/clienteposslimgiros/xml/territorios.xml
+ruta_interna_xml_datos_entidades=/co/com/codesa/clienteposslimgiros/xml/datos_entidades.xml
+ruta_interna_xml_direcciones=/co/com/codesa/clienteposslimgiros/xml/direcciones.xml
+ruta_interna_xml_actividades_economicas=/co/com/codesa/clienteposslimgiros/xml/actividades_economicas.xml
+
+#Ids - Codigos
+#Codigo - afectaCaja - Concepto
+#cod_afecta_caja_concepto=31
+#Codigos Dane
+codigo_dane_colombia=56
+codigo_dane_departamento_x_defecto=05
+codigo_dane_municipio_x_defecto=05001
+#Codigos Tipos Territorios
+codigo_tipo_territorio_pais=1
+codigo_tipo_territorio_departamento=2
+codigo_tipo_territorio_municipio=3
+codigo_tipo_territorio_zona=6
+
+#Entidades
+ent_tipos_identificacion=4
+ent_tipos_identificacion_ingreso_egreso=22
+ent_tipos_identificacion_apoderado=023
+ent_tipos_solicitudes_autorizaciones=20
+ent_tipos_persona=7
+ent_tipos_tercero=8
+ent_estados_giro=9
+
+#Datos Entidades
+#Tipos Documento Tercero
+cod_dat_ent_tpdoc_cc=3
+cod_dat_ent_tpdoc_ce=4
+cod_dat_ent_tpdoc_ti=5
+cod_dat_ent_tpdoc_nit=8
+cod_dat_ent_tpdoc_pa=7
+cod_dat_ent_tpdoc_cex=6
+#Tipo Solicitud Autorizacion
+cod_dat_ent_tp_sol_cambio_beneficiario=58
+cod_dat_ent_tp_sol_anulacion=56
+cod_dat_ent_tp_sol_levantamiento_restriccion=126
+cod_dat_ent_tp_sol_levantamiento_rezago=127
+#Tipos persona
+cod_dat_ent_tpper_natural=9
+cod_dat_ent_tpper_juridica=10
+#Tipos Tercero
+cod_dat_ent_tpterc_cliente=11
+#tipo de Dato Entidad - tipo de direccion clase via 
+tip_dat_direccion_clase_via_especificacion_abierta=A
+#Mediod de Pago
+cod_dat_ent_medio_pago_credito=133
+#Estado Autorizaciones
+dat_ent_autorizacion_pendiente=PENDIENTE AUTORIZACION
+dat_ent_autorizacion_autorizado=AUTORIZADO
+dat_ent_autorizacion_no_autorizado=NO AUTORIZADO
+#Direccion
+ent_direccion_clases_via=D1
+ent_direccion_clases_via_internacional=D1_int
+ent_direccion_sectores_ubicacion=D2
+ent_direccion_caracteristicas_lugar=D3
+ent_direccion_estratos_barrio=D4
+#Estados giro
+cod_dat_ent_esgi_rezago=125
+cod_dat_ent_esgi_no_distribuible=124
+cod_dat_ent_esgi_anulado=41
+
+#Biometria
+solicitar_leer_huella=solicitar_leer_huella
+no_se_logro_detectar_huella=no_se_logro_detectar_huella
+no_logro_detectar_lector=no_logro_detectar_lector
+captura_exitosa=captura_exitosa
+lectura_huella_err=lectura_huella_err
+intentos_lectura_huella_cajero=3
+intentos_lectura_huella_cliente=3
+dedo_no_detectado=<DEDO_NO_DETECTADO>
+lector_no_detectado=<LECTOR_NO_DETECTADO>
+conexion_afis_error=conexion_afis_err
+error_imagen_nula=Error imagen nula
+bio_fallida=<|FALLIDA>
+estado_pendiente_biometria_tercero=PENDIENTE
+estado_enrolado_biometria_tercero=ENROLADO
+solicitar_leer_huella_derecha=solicitar_leer_huella_derecha
+solicitar_leer_huella_izquierda=solicitar_leer_huella_izquierda
+respuesta_incompleta=<RESPUESTA_INCOMPLETA>
+huella_calidad_baja=<BAJA>
+huella_fallida=<FALLIDA>
+bio_res_reinicie_idverify=Reinicie IDVerify
+bio_res_falla_lectura=Falla lectura
+bio_res_calidad_baja=Calidad baja
+bio_admpro_calidad_baja=calidad_baja
+bio_res_lector_no_dectectado=No detecto lector
+bio_lectura_fallida=FALLIDA
+bio_lectura_baja=BAJA
+bio_longitud_max_huella_defecto=180
+bio_longitud_max_huella_defecto_internacional=400
+bio_reinicie_idverify=Reinicie IDVerify!
+bio_captura_no_exitosa_nd=Captura no exitosa (ND)
+mensaje_verifica_despues_enrolamiento=Para este pago se debe verificar el enrolamiento
+
+#Caracteres
+salto_linea=\n
+retorno_carro=\r
+comilla_simple='
+comilla_doble=\"
+comilla_simple_izquierda=`
+comilla_simple_derecha=´
+punto_vineta=\u2022
+
+#SuperCombo
+tercero_asegurable=asegurable
+sc_asegurado_excede_limite_seguro=asegurado excede su limite de seguro
+sc_problemas_consultando_cliente_ws=Problemas Cosultando Cliente ws"
+sc_illegal_character=illegal character
+sc_respuesta_extero=EXTERNO
+sc_respuesta_ws=WS
+
+#Servicios adicionales
+#Clave seguridad
+srv_adi_clv_seg_clave_correcta=VALIDO
+
+#Versiones
+#Version del producto giro postal
+#20180831_01 RS:45306
+version_giro=BNET  Rel5.0_fix0_2 RS:21086
+
+#Captura Fotos Documentos Remesas Internacionales
+cdi_etiqueta_documento_anverso=A
+cdi_etiqueta_documento_reverso=I
+ip_socket_internacional=ipSocektInternacional
+
+#Tipos Documento Tercero Internacional
+cod_tpdoc_inter_cc=CC
+cod_tpdoc_inter_ce=CE
+cod_tpdoc_inter_ti=TI
+cod_tpdoc_inter_pa=PA
+cod_tpdoc_inter_ot=OT
+
+#Numero de transacciones asociadas que se pueden enviar en operaciones inusuales
+oii_numero_transacciones_asociadas=8

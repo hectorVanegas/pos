@@ -1,0 +1,21 @@
+
+Tipo: Negocio
+Funcionalidad: Arqueo de caja
+Descripcion: Se requiere re-estructurar completamente la opcion de arqueo de caja
+			 para contemplar la incorporacion de cualquier tipo de medio de pago,
+			 debido a que como esta actualmente, existen 4 secciones que reflejan
+			 los medios de pago aptos para realizar el cierre (monedas, billetes, 
+			 cheques y vales), y bajo este diseño grafico y logico no se permite
+			 facilmente la incorporacion de nuevas secciones como por ejemplo una 
+			 seccion de tarjetas u otras secciones que posiblemente apareceran a 
+			 futuro 
+Propuesta: Se debe re-estrucutrar el diseño grafico de la forma, para ello se debe
+		   tener presente lo efectuado en la funcionalidad de movimiento de caja,
+		   como un inicio de propuesta, por otro lado se debe modificar logica,
+		   y comportamiento de tramas, asi como tambien re-estructurar formatos
+		   de impresiones y re-impresion del tema, practicamente se debe realizar 
+		   esta funcionalidad de cero, siendo asi, es recomendable realizarlo de
+		   manera nueva, separada e independiente de la funcionalidad actual, para
+		   no causar impedimentos en la etapa de pruebas o incluso afectar el 
+		   ambiente interno de desarrollo  
+Responsable ideal: Hector Q-en-K

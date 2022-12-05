@@ -1,0 +1,15 @@
+envio_giro=1
+pago_giro=2
+pago_giro_externo=5
+seguro=6
+recaudo=3
+pago_recaudo=4
+#8
+envio_giro_internacional=8
+#7
+pago_giro_internacional=7
+#9
+protegiro_internacional=9
+anulacion_giro=1
+anulacion_seguro=6
+anulacion_seguro_internacional=9
